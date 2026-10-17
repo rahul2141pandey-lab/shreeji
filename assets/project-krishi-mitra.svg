@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 280" width="460" height="280" fill="none">
+  <!-- Laptop Display Lid & Bezel -->
+  <rect x="50" y="20" width="360" height="210" rx="10" fill="#1C1F26"/>
+  <rect x="52" y="22" width="356" height="206" rx="8" stroke="#444955" stroke-width="1.5"/>
+  <circle cx="230" cy="28" r="2.5" fill="#5E6573"/>
+
+  <!-- Screen Content: Krishi Mitra (Agriculture AI & Web platform) -->
+  <rect x="62" y="36" width="336" height="182" fill="#0C2417"/>
+  
+  <!-- App Header -->
+  <rect x="62" y="36" width="336" height="22" fill="#07190F"/>
+  <circle cx="74" cy="47" r="3" fill="#E84A5F"/>
+  <circle cx="83" cy="47" r="3" fill="#FF847C"/>
+  <circle cx="92" cy="47" r="3" fill="#99B898"/>
+  <text x="110" y="51" font-family="'Inter', sans-serif" font-size="7" fill="#86EFAC">krishimitra.ai — Smart Agriculture &amp; Crop Intelligence</text>
+
+  <!-- Hero Headline -->
+  <text x="230" y="80" font-family="'Manrope', sans-serif" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="middle">AI-Powered Farming Diagnostics &amp; Yield</text>
+  <text x="230" y="94" font-family="'Inter', sans-serif" font-size="7.5" fill="#A7F3D0" text-anchor="middle">Empowering 10,000+ growers with weather forecasts and soil telemetry</text>
+
+  <!-- Diagnosis Box -->
+  <rect x="95" y="108" width="130" height="88" rx="6" fill="#133623" stroke="#226640" stroke-width="1"/>
+  <text x="105" y="124" font-family="'Inter', sans-serif" font-size="7" font-weight="700" fill="#34D399">SOIL &amp; CROP HEALTH</text>
+  <rect x="105" y="132" width="110" height="8" rx="4" fill="#0B2014"/>
+  <rect x="105" y="132" width="85" height="8" rx="4" fill="#10B981"/>
+  <text x="105" y="154" font-family="'Inter', sans-serif" font-size="6.5" fill="#E2E8F0">Moisture: 68% (Optimal)</text>
+  <text x="105" y="166" font-family="'Inter', sans-serif" font-size="6.5" fill="#E2E8F0">Nitrogen: 82 mg/kg</text>
+  <text x="105" y="178" font-family="'Inter', sans-serif" font-size="6.5" fill="#34D399">Status: Healthy Growth</text>
+
+  <!-- AI Advisory Box -->
+  <rect x="235" y="108" width="130" height="88" rx="6" fill="#133623" stroke="#226640" stroke-width="1"/>
+  <text x="245" y="124" font-family="'Inter', sans-serif" font-size="7" font-weight="700" fill="#FBBF24">AI WEATHER ADVISORY</text>
+  <text x="245" y="140" font-family="'Inter', sans-serif" font-size="6.5" fill="#FFFFFF">Light Rain Expected: 4 PM</text>
+  <text x="245" y="152" font-family="'Inter', sans-serif" font-size="6" fill="#94A3B8">Irrigation recommendations:</text>
+  <rect x="245" y="158" width="110" height="18" rx="4" fill="#22543D"/>
+  <text x="300" y="170" font-family="'Inter', sans-serif" font-size="6.5" font-weight="700" fill="#86EFAC" text-anchor="middle">Delay Watering 24 Hours</text>
+
+  <!-- Laptop Base -->
+  <path d="M15 230 L445 230 L425 244 L35 244 Z" fill="#D6D9E0"/>
+  <rect x="180" y="230" width="100" height="4" rx="2" fill="#B3B8C4"/>
+  <rect x="35" y="244" width="390" height="2" fill="#9CA3AF"/>
+</svg>

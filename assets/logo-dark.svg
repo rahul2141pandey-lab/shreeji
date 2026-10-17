@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48" width="240" height="48" fill="none">
+  <!-- Monogram Box -->
+  <rect x="0" y="2" width="44" height="44" rx="10" fill="#1C1F26"/>
+  <rect x="1.5" y="3.5" width="41" height="41" rx="8.5" stroke="#C5A059" stroke-width="1.2" stroke-opacity="0.6"/>
+  <path d="M15 15C15 13.3431 16.3431 12 18 12H24.5C26.9853 12 29 14.0147 29 16.5C29 18.9853 26.9853 21 24.5 21H18.5C16.0147 21 14 23.0147 14 25.5C14 27.9853 16.0147 30 18.5 30H26C27.6569 30 29 28.6569 29 27" stroke="url(#logoGoldDark)" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="28.5" cy="13.5" r="1.5" fill="#E5C378"/>
+
+  <!-- Brand Typography for Dark Backgrounds -->
+  <text x="56" y="23" font-family="'Manrope', 'Plus Jakarta Sans', sans-serif" font-size="17" font-weight="800" letter-spacing="-0.02em" fill="#FFFFFF">Shreeji</text>
+  <text x="114" y="23" font-family="'Manrope', 'Plus Jakarta Sans', sans-serif" font-size="17" font-weight="500" letter-spacing="-0.02em" fill="#E5C378">Web Studio</text>
+  <text x="56" y="37" font-family="'Inter', sans-serif" font-size="9" font-weight="600" letter-spacing="0.16em" fill="#9CA3AF" text-transform="uppercase">Digital Craft &amp; Growth</text>
+
+  <defs>
+    <linearGradient id="logoGoldDark" x1="14" y1="12" x2="29" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F3E5C2"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#AA853E"/>
+    </linearGradient>
+  </defs>
+</svg>

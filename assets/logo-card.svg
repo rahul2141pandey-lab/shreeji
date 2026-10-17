@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 340" width="380" height="340" fill="none">
+  <defs>
+    <!-- Soft Drop Shadow -->
+    <filter id="cardShadow" x="-10%" y="-10%" width="125%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#C59A3F" flood-opacity="0.16"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#000000" flood-opacity="0.05"/>
+    </filter>
+    
+    <linearGradient id="cardGoldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAD59E"/>
+      <stop offset="50%" stop-color="#C59A3F"/>
+      <stop offset="100%" stop-color="#9E7835"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card Background with Rounded Corners -->
+  <rect x="15" y="15" width="350" height="310" rx="24" fill="#FFFFFF" filter="url(#cardShadow)"/>
+  <!-- Thin Golden Border -->
+  <rect x="15" y="15" width="350" height="310" rx="24" stroke="url(#cardGoldBorder)" stroke-width="2"/>
+
+  <!-- Official Shreeji Web Studio Logo -->
+  <image href="logo.png" x="35" y="25" width="310" height="290" preserveAspectRatio="xMidYMid meet"/>
+</svg>

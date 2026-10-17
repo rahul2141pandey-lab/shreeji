@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" width="320" height="100" fill="none">
+  <defs>
+    <!-- Gold Gradient for Feather & Accents -->
+    <linearGradient id="goldFeather" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5C16C"/>
+      <stop offset="45%" stop-color="#C59A3F"/>
+      <stop offset="100%" stop-color="#8F681C"/>
+    </linearGradient>
+    <linearGradient id="featherEye" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D5A88"/>
+      <stop offset="50%" stop-color="#183B5E"/>
+      <stop offset="100%" stop-color="#0E2338"/>
+    </linearGradient>
+    <linearGradient id="featherCore" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#A47B22"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Group for Logo -->
+  <g transform="translate(10, 8)">
+    
+    <!-- Peacock Feather (Mor Pankh) hovering above the right side of श्रीजी -->
+    <g transform="translate(178, -4) scale(0.72) rotate(14)">
+      <!-- Outer Golden Plumage Filaments -->
+      <path d="M22 65 C12 50, 0 35, 12 18 C20 6, 36 2, 44 14 C52 26, 42 45, 22 65 Z" fill="url(#goldFeather)" opacity="0.95"/>
+      <!-- Feather Ribs / Radiating Curves -->
+      <path d="M20 52 C9 42, 4 30, 10 20" stroke="#FFF5DC" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M24 45 C35 34, 42 22, 38 12" stroke="#FFF5DC" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M18 36 C7 28, 6 18, 14 10" stroke="#E5C16C" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M26 30 C34 20, 36 10, 30 4" stroke="#E5C16C" stroke-width="1.4" stroke-linecap="round"/>
+      <!-- Inner Deep Blue Eye -->
+      <ellipse cx="26" cy="22" rx="10" ry="14" fill="url(#featherEye)" transform="rotate(-15, 26, 22)"/>
+      <!-- Inner Teal / Turquoise Ring -->
+      <ellipse cx="26" cy="22" rx="6.5" ry="9" fill="#1BBC9B" transform="rotate(-15, 26, 22)"/>
+      <!-- Core Golden Droplet -->
+      <ellipse cx="26.5" cy="21.5" rx="3.5" ry="5.5" fill="url(#featherCore)" transform="rotate(-15, 26, 22)"/>
+      <circle cx="26" cy="20" r="1.5" fill="#FFEAA7"/>
+      <!-- Stem -->
+      <path d="M22 65 C20 78, 16 92, 12 105" stroke="url(#goldFeather)" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Devanagari "श्रीजी" Calligraphic Letterforms -->
+    <!-- Shirorekha (Top Horizontal Header Bar) -->
+    <path d="M20 28 L235 28" stroke="#1A1A1A" stroke-width="4.5" stroke-linecap="round"/>
+
+    <!-- Letter 1: "श्री" -->
+    <!-- Vertical stem of Shri -->
+    <path d="M82 28 L82 66" stroke="#1A1A1A" stroke-width="5" stroke-linecap="round"/>
+    <!-- Upper loop of Sha -->
+    <path d="M82 44 C82 44, 45 44, 45 34 C45 28, 54 28, 60 33 C67 38, 70 48, 48 66" stroke="#1A1A1A" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Diagonal Ra-kar stroke -->
+    <path d="M66 52 L54 66" stroke="#1A1A1A" stroke-width="4.5" stroke-linecap="round"/>
+    <!-- Deergha I-kar matra for Shri (curves from vertical stem up over shirorekha to the right) -->
+    <path d="M82 28 C82 12, 102 10, 102 28 L102 66" stroke="#1A1A1A" stroke-width="4.8" stroke-linecap="round"/>
+
+    <!-- Letter 2: "जी" -->
+    <!-- Vertical stem of Ja -->
+    <path d="M152 28 L152 66" stroke="#1A1A1A" stroke-width="5" stroke-linecap="round"/>
+    <!-- Horizontal arm of Ja -->
+    <path d="M152 47 L132 47" stroke="#1A1A1A" stroke-width="4.6" stroke-linecap="round"/>
+    <!-- Cup / curve of Ja -->
+    <path d="M132 47 C118 47, 118 64, 134 64 L142 64" stroke="#1A1A1A" stroke-width="4.6" stroke-linecap="round"/>
+    <!-- Deergha I-kar matra for Jee (gracefully curves up and envelopes the Mor Pankh) -->
+    <path d="M152 28 C152 8, 186 6, 186 28 L186 66" stroke="#1A1A1A" stroke-width="4.8" stroke-linecap="round"/>
+
+    <!-- Subtitle: WEB STUDIO in Spaced Clean Caps -->
+    <text x="56" y="80" font-family="'Manrope', 'Montserrat', 'Inter', sans-serif" font-size="13.5" font-weight="800" letter-spacing="0.28em" fill="#1A1A1A">WEB STUDIO</text>
+    
+    <!-- Tagline: - YOUR VISION. OUR DIGITAL CRAFT. - -->
+    <text x="32" y="93" font-family="'Inter', sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.14em" fill="#C59A3F">- YOUR VISION. OUR DIGITAL CRAFT. -</text>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" fill="none">
+  <defs>
+    <linearGradient id="leafGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAD59E"/>
+      <stop offset="50%" stop-color="#C59A3F"/>
+      <stop offset="100%" stop-color="#9E7835"/>
+    </linearGradient>
+  </defs>
+  <!-- Stem -->
+  <path d="M140 145 C120 115, 95 85, 45 40" stroke="url(#leafGold)" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+  <!-- Leaf 1 (Top) -->
+  <path d="M45 40 C35 15, 60 5, 68 28 C74 46, 55 45, 45 40 Z" fill="url(#leafGold)" opacity="0.85"/>
+  <!-- Leaf 2 (Right) -->
+  <path d="M80 68 C110 55, 125 75, 102 92 C85 102, 80 82, 80 68 Z" fill="url(#leafGold)" opacity="0.75"/>
+  <!-- Leaf 3 (Left) -->
+  <path d="M65 58 C35 65, 30 90, 56 94 C72 96, 70 75, 65 58 Z" fill="url(#leafGold)" opacity="0.8"/>
+  <!-- Leaf 4 (Bottom) -->
+  <path d="M105 105 C135 110, 140 135, 115 138 C98 138, 98 120, 105 105 Z" fill="url(#leafGold)" opacity="0.7"/>
+</svg>
